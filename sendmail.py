@@ -1,11 +1,11 @@
 import smtplib
 
 fromaddr = 'jonsnow@gameofthrones.com'
-toaddrs  = 'ankit.jaggi@live.in'
+toaddrs  = ''
 username = ""
 password = ""
-to_addrs = ["mohit@designbids.in", "agrwalmohit@gmail.com"]
-test_addr = ["yo.ankit@gmail.com", "ankit.jaggi@live.in"]
+to_addrs = ["", ""]
+test_addr = ["", ""]
 
 for addr in to_addrs:
 	name = addr[0:addr.find('@')]
@@ -32,8 +32,3 @@ Subject: I'm alive!
 		print "Mail Sent successfully"
 	except:
 		print "Error sending mail"
-
-
-
-
-
